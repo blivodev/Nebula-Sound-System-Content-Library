@@ -1,0 +1,116 @@
+{
+  "_placeholder_notice": "SAMPLE / PLACEHOLDER ONLY - Demonstrates .nebpatch format for Phase 9 Content Library skeleton. Not final factory content.",
+  "category": "synth",
+  "connections": [
+    {
+      "from": 0,
+      "slot": 0,
+      "to": 2
+    },
+    {
+      "from": 1,
+      "slot": 0,
+      "to": 3
+    },
+    {
+      "from": 1,
+      "slot": 0,
+      "to": 5
+    },
+    {
+      "from": 2,
+      "slot": 0,
+      "to": 4
+    },
+    {
+      "from": 3,
+      "slot": 1,
+      "to": 4
+    },
+    {
+      "from": 4,
+      "slot": 0,
+      "to": 6
+    },
+    {
+      "from": 5,
+      "slot": 1,
+      "to": 6
+    }
+  ],
+  "format": "nebula-patch",
+  "format_version": 1,
+  "name": "[SAMPLE] Analog Lead (Placeholder)",
+  "nodes": [
+    {
+      "device": "nebula.mod.keyboard",
+      "id": 0,
+      "label": "Pitch CV",
+      "parameters": {
+        "output": 0.0
+      }
+    },
+    {
+      "device": "nebula.mod.keyboard",
+      "id": 1,
+      "label": "Gate",
+      "parameters": {
+        "output": 1.0
+      }
+    },
+    {
+      "device": "nebula.mod.vco",
+      "id": 2,
+      "label": "Saw Oscillator",
+      "parameters": {
+        "coarse": 0.0,
+        "fine": 0.0,
+        "level": 0.5,
+        "waveform": 2.0
+      }
+    },
+    {
+      "device": "nebula.mod.adsr",
+      "id": 3,
+      "label": "Filter Envelope",
+      "parameters": {
+        "attack_ms": 5.0,
+        "decay_ms": 200.0,
+        "release_ms": 120.0,
+        "sustain": 0.2
+      }
+    },
+    {
+      "device": "nebula.mod.vcf",
+      "id": 4,
+      "label": "Low-Pass Filter",
+      "parameters": {
+        "cutoff_hz": 650.0,
+        "cv_amount": 2.5,
+        "mode": 0.0,
+        "resonance": 0.6
+      }
+    },
+    {
+      "device": "nebula.mod.adsr",
+      "id": 5,
+      "label": "Amp Envelope",
+      "parameters": {
+        "attack_ms": 2.0,
+        "decay_ms": 180.0,
+        "release_ms": 90.0,
+        "sustain": 0.7
+      }
+    },
+    {
+      "device": "nebula.mod.vca",
+      "id": 6,
+      "label": "Master VCA",
+      "parameters": {
+        "level": 0.8
+      }
+    }
+  ],
+  "output": 6,
+  "voices": 8
+}

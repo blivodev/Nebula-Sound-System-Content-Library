@@ -1,0 +1,28 @@
+{
+  "_placeholder_notice": "SAMPLE / PLACEHOLDER ONLY - Demonstrates .nebproj format for Phase 9 Content Library skeleton. Not final factory content.",
+  "format": "nebula-project",
+  "format_version": 1,
+  "id": "00000000-0000-4000-8000-000000000001",
+  "name": "[SAMPLE] Starter Template (Placeholder)",
+  "tempo_bpm": 120.0,
+  "tracks": [
+    {
+      "clips": [],
+      "devices": [],
+      "id": "00000000-0000-4000-8000-000000000002",
+      "instrument_patch": "Modular Lead",
+      "kind": "midi",
+      "name": "Synth Lead",
+      "volume": 0.8
+    },
+    {
+      "clips": [],
+      "devices": [],
+      "id": "00000000-0000-4000-8000-000000000003",
+      "instrument_patch": "Drum Rack",
+      "kind": "midi",
+      "name": "Drums",
+      "volume": 0.9
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "_placeholder_notice": "SAMPLE / PLACEHOLDER ONLY - Demonstrates .nebkit format for Phase 9 Content Library skeleton. Not final factory content.",
+  "author": "Nebula Content Team",
+  "description": "Analog drum kit manifest template for Drum Rack pads 36..51.",
+  "format": "nebula-kit",
+  "format_version": 1,
+  "license": "CC0-1.0",
+  "name": "[SAMPLE] Space Analog Kit (Placeholder)",
+  "pads": [
+    {
+      "choke_group": 0,
+      "gain": 1.0,
+      "name": "Kick",
+      "note": 36,
+      "release_ms": 350.0,
+      "sample": "one-shots/drums/kicks/sample_placeholder_kick.wav",
+      "tune_cents": 0.0
+    },
+    {
+      "choke_group": 0,
+      "gain": 0.9,
+      "name": "Snare",
+      "note": 38,
+      "release_ms": 220.0,
+      "sample": "one-shots/drums/snares/sample_placeholder_snare.wav",
+      "tune_cents": 0.0
+    },
+    {
+      "choke_group": 1,
+      "gain": 0.75,
+      "name": "Closed Hat",
+      "note": 42,
+      "release_ms": 75.0,
+      "sample": "one-shots/drums/hats/sample_placeholder_hat_closed.wav",
+      "tune_cents": 0.0
+    },
+    {
+      "choke_group": 1,
+      "gain": 0.8,
+      "name": "Open Hat",
+      "note": 46,
+      "release_ms": 400.0,
+      "sample": "one-shots/drums/hats/sample_placeholder_hat_open.wav",
+      "tune_cents": 0.0
+    }
+  ],
+  "tags": [
+    "sample",
+    "placeholder",
+    "analog",
+    "drums",
+    "kit"
+  ]
+}

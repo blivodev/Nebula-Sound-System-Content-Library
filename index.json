@@ -1,0 +1,62 @@
+{
+  "demo-projects": {
+    "sample_starter_template": {
+      "files": [
+        "demo-projects/sample_starter_template.nebproj"
+      ],
+      "license": "CC0-1.0",
+      "name": "[SAMPLE] Starter Template (Placeholder)",
+      "tags": [
+        "demo-project",
+        "placeholder",
+        "sample"
+      ]
+    }
+  },
+  "kits": {
+    "sample_space_kit": {
+      "files": [
+        "kits/sample_space_kit.nebkit"
+      ],
+      "license": "CC0-1.0",
+      "name": "[SAMPLE] Space Analog Kit (Placeholder)",
+      "tags": [
+        "analog",
+        "drums",
+        "kit",
+        "placeholder",
+        "sample"
+      ]
+    }
+  },
+  "loops": {},
+  "one-shots": {},
+  "presets": {
+    "sample_analog_lead": {
+      "files": [
+        "presets/sample_analog_lead.nebpatch"
+      ],
+      "license": "CC0-1.0",
+      "name": "[SAMPLE] Analog Lead (Placeholder)",
+      "tags": [
+        "placeholder",
+        "preset",
+        "sample",
+        "synth"
+      ]
+    },
+    "sample_sub_bass": {
+      "files": [
+        "presets/sample_sub_bass.nebpatch"
+      ],
+      "license": "CC0-1.0",
+      "name": "[SAMPLE] Sub Bass (Placeholder)",
+      "tags": [
+        "bass",
+        "placeholder",
+        "preset",
+        "sample"
+      ]
+    }
+  }
+}
