@@ -30,7 +30,468 @@
     }
   },
   "loops": {},
-  "one-shots": {},
+  "one-shots": {
+    "agogo_hi_bell": {
+      "files": [
+        "one-shots/drums/percussion/agogo_hi_bell.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Agogo Hi Bell",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "agogo_lo_bell": {
+      "files": [
+        "one-shots/drums/percussion/agogo_lo_bell.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Agogo Lo Bell",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "bass_808_sub_a1": {
+      "files": [
+        "one-shots/bass/bass_808_sub_a1.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Bass 808 Sub A1",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "bass_saw_stab_a2": {
+      "files": [
+        "one-shots/bass/bass_saw_stab_a2.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Bass Saw Stab A2",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "bongo_hi_slap": {
+      "files": [
+        "one-shots/drums/percussion/bongo_hi_slap.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Bongo Hi Slap",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "bongo_lo_warm": {
+      "files": [
+        "one-shots/drums/percussion/bongo_lo_warm.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Bongo Lo Warm",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "bongo_mid_tone": {
+      "files": [
+        "one-shots/drums/percussion/bongo_mid_tone.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Bongo Mid Tone",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "cabasa_scratch_buzz": {
+      "files": [
+        "one-shots/drums/percussion/cabasa_scratch_buzz.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Cabasa Scratch Buzz",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "clap_hand_group": {
+      "files": [
+        "one-shots/drums/claps/clap_hand_group.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Clap Hand Group",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "claves_wood_tick": {
+      "files": [
+        "one-shots/drums/percussion/claves_wood_tick.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Claves Wood Tick",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "conga_hi_slap": {
+      "files": [
+        "one-shots/drums/percussion/conga_hi_slap.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Conga Hi Slap",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "conga_lo_open": {
+      "files": [
+        "one-shots/drums/percussion/conga_lo_open.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Conga Lo Open",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "conga_low_boom": {
+      "files": [
+        "one-shots/drums/percussion/conga_low_boom.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Conga Low Boom",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "conga_tumba_deep": {
+      "files": [
+        "one-shots/drums/percussion/conga_tumba_deep.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Conga Tumba Deep",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "cowbell_analog_ring": {
+      "files": [
+        "one-shots/drums/percussion/cowbell_analog_ring.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Cowbell Analog Ring",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "crash_bright_wash": {
+      "files": [
+        "one-shots/drums/cymbals/crash_bright_wash.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Crash Bright Wash",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "crotale_glass_ping": {
+      "files": [
+        "one-shots/drums/cymbals/crotale_glass_ping.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Crotale Glass Ping",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "foley_click_pen": {
+      "files": [
+        "one-shots/foley/foley_click_pen.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Foley Click Pen",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "foley_pop_bubble": {
+      "files": [
+        "one-shots/foley/foley_pop_bubble.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Foley Pop Bubble",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "foley_water_drip_plink": {
+      "files": [
+        "one-shots/foley/foley_water_drip_plink.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Foley Water Drip Plink",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "foley_whoosh_air": {
+      "files": [
+        "one-shots/foley/foley_whoosh_air.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Foley Whoosh Air",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "fx_boom_cinematic": {
+      "files": [
+        "one-shots/fx/fx_boom_cinematic.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Fx Boom Cinematic",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "fx_glitch_stutter": {
+      "files": [
+        "one-shots/fx/fx_glitch_stutter.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Fx Glitch Stutter",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "fx_riser_build": {
+      "files": [
+        "one-shots/fx/fx_riser_build.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Fx Riser Build",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "fx_zap_laser": {
+      "files": [
+        "one-shots/fx/fx_zap_laser.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Fx Zap Laser",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "guiro_rasp_scrape": {
+      "files": [
+        "one-shots/drums/percussion/guiro_rasp_scrape.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Guiro Rasp Scrape",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "hat_closed_tick": {
+      "files": [
+        "one-shots/drums/hats/hat_closed_tick.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Hat Closed Tick",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "hat_open_ring": {
+      "files": [
+        "one-shots/drums/hats/hat_open_ring.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Hat Open Ring",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "kick_analog_sub_a1": {
+      "files": [
+        "one-shots/drums/kicks/kick_analog_sub_a1.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Kick Analog Sub A1",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "maracas_shake_swell": {
+      "files": [
+        "one-shots/drums/percussion/maracas_shake_swell.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Maracas Shake Swell",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "ride_shimmer_ring": {
+      "files": [
+        "one-shots/drums/cymbals/ride_shimmer_ring.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Ride Shimmer Ring",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "rim_side_stick": {
+      "files": [
+        "one-shots/drums/percussion/rim_side_stick.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Rim Side Stick",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "shaker_grain_swish": {
+      "files": [
+        "one-shots/drums/percussion/shaker_grain_swish.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Shaker Grain Swish",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "snap_finger_crack": {
+      "files": [
+        "one-shots/drums/percussion/snap_finger_crack.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Snap Finger Crack",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "snare_acoustic_crack": {
+      "files": [
+        "one-shots/drums/snares/snare_acoustic_crack.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Snare Acoustic Crack",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "stick_wood_click": {
+      "files": [
+        "one-shots/drums/percussion/stick_wood_click.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Stick Wood Click",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "synth_bell_fm": {
+      "files": [
+        "one-shots/synths/synth_bell_fm.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Synth Bell Fm",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "synth_blip_ui": {
+      "files": [
+        "one-shots/synths/synth_blip_ui.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Synth Blip Ui",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "synth_pluck_bright": {
+      "files": [
+        "one-shots/synths/synth_pluck_bright.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Synth Pluck Bright",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "tambourine_jingle_burst": {
+      "files": [
+        "one-shots/drums/percussion/tambourine_jingle_burst.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Tambourine Jingle Burst",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "tom_floor_deep": {
+      "files": [
+        "one-shots/drums/toms/tom_floor_deep.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Tom Floor Deep",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "tom_high_rack": {
+      "files": [
+        "one-shots/drums/toms/tom_high_rack.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Tom High Rack",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "tom_low_floor": {
+      "files": [
+        "one-shots/drums/toms/tom_low_floor.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Tom Low Floor",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "tom_mid_rack": {
+      "files": [
+        "one-shots/drums/toms/tom_mid_rack.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Tom Mid Rack",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "triangle_muted_ping": {
+      "files": [
+        "one-shots/drums/cymbals/triangle_muted_ping.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Triangle Muted Ping",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "woodblock_hollow_knock": {
+      "files": [
+        "one-shots/drums/percussion/woodblock_hollow_knock.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Woodblock Hollow Knock",
+      "tags": [
+        "one-shot"
+      ]
+    }
+  },
   "presets": {
     "sample_analog_lead": {
       "files": [
