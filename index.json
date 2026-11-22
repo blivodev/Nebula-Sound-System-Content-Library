@@ -14,6 +14,19 @@
     }
   },
   "kits": {
+    "factory_analog": {
+      "files": [
+        "kits/factory_analog.nebkit"
+      ],
+      "license": "CC0-1.0",
+      "name": "Factory Analog Kit",
+      "tags": [
+        "analog",
+        "drums",
+        "electronic",
+        "kit"
+      ]
+    },
     "sample_space_kit": {
       "files": [
         "kits/sample_space_kit.nebkit"
@@ -30,7 +43,48 @@
     }
   },
   "loops": {},
-  "one-shots": {},
+  "one-shots": {
+    "hat_closed_bright_tick": {
+      "files": [
+        "one-shots/drums/hats/hat_closed_bright_tick.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Hat Closed Bright Tick",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "hat_open_airy": {
+      "files": [
+        "one-shots/drums/hats/hat_open_airy.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Hat Open Airy",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "kick_analog_sub_e1": {
+      "files": [
+        "one-shots/drums/kicks/kick_analog_sub_e1.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Kick Analog Sub E1",
+      "tags": [
+        "one-shot"
+      ]
+    },
+    "snare_acoustic_crack_d1": {
+      "files": [
+        "one-shots/drums/snares/snare_acoustic_crack_d1.wav"
+      ],
+      "license": "CC0-1.0",
+      "name": "Snare Acoustic Crack D1",
+      "tags": [
+        "one-shot"
+      ]
+    }
+  },
   "presets": {
     "sample_analog_lead": {
       "files": [

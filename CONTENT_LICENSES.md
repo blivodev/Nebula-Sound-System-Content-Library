@@ -45,6 +45,11 @@ All items present in the library are inventoried in the table below. Every pull 
 | `presets/sample_sub_bass.nebpatch` | `[SAMPLE] Sub Bass (Placeholder)` | Presets | Nebula Content Team | In-house (Synthesized) | CC0-1.0 | 2026-09-27 | Nebula Seed Agent | Sample placeholder item for Phase 9 |
 | `kits/sample_space_kit.nebkit` | `[SAMPLE] Space Analog Kit (Placeholder)` | Kits | Nebula Content Team | In-house (Manifest) | CC0-1.0 | 2026-09-27 | Nebula Seed Agent | Sample placeholder item for Phase 9 |
 | `demo-projects/sample_starter_template.nebproj` | `[SAMPLE] Starter Template (Placeholder)` | Demo Projects | Nebula Content Team | In-house (Project model) | CC0-1.0 | 2026-09-27 | Nebula Seed Agent | Sample placeholder item for Phase 9 |
+| `one-shots/drums/kicks/kick_analog_sub_e1.wav` | Factory Analog Kick (E1) | One-shots | Nebula Content Team | In-house (Synthesized by tools/synth_factory_kit.py) | CC0-1.0 | 2026-09-29 | Nebula Factory Kit Agent | Original synthesized CC0 one-shot |
+| `one-shots/drums/snares/snare_acoustic_crack_d1.wav` | Factory Analog Snare (D1) | One-shots | Nebula Content Team | In-house (Synthesized by tools/synth_factory_kit.py) | CC0-1.0 | 2026-09-29 | Nebula Factory Kit Agent | Original synthesized CC0 one-shot |
+| `one-shots/drums/hats/hat_closed_bright_tick.wav` | Factory Analog Closed Hat | One-shots | Nebula Content Team | In-house (Synthesized by tools/synth_factory_kit.py) | CC0-1.0 | 2026-09-29 | Nebula Factory Kit Agent | Original synthesized CC0 one-shot |
+| `one-shots/drums/hats/hat_open_airy.wav` | Factory Analog Open Hat | One-shots | Nebula Content Team | In-house (Synthesized by tools/synth_factory_kit.py) | CC0-1.0 | 2026-09-29 | Nebula Factory Kit Agent | Original synthesized CC0 one-shot |
+| `kits/factory_analog.nebkit` | Factory Analog Kit | Kits | Nebula Content Team | In-house (Manifest) | CC0-1.0 | 2026-09-29 | Nebula Factory Kit Agent | Original synthesized CC0 drum kit |
 
 ---
 

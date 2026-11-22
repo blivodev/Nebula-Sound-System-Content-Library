@@ -1,0 +1,52 @@
+{
+  "author": "Nebula Content Team",
+  "description": "A small, factory-grade analog drum kit: synthesized kick, snare, closed and open hats. The sounds are original recordings made with tools/synth_factory_kit.py, so this is CC0 by construction.",
+  "format": "nebula-kit",
+  "format_version": 1,
+  "license": "CC0-1.0",
+  "name": "Factory Analog Kit",
+  "pads": [
+    {
+      "choke_group": 0,
+      "gain": 1.0,
+      "name": "Kick",
+      "note": 36,
+      "release_ms": 250.0,
+      "sample": "one-shots/drums/kicks/kick_analog_sub_e1.wav",
+      "tune_cents": 0.0
+    },
+    {
+      "choke_group": 0,
+      "gain": 0.95,
+      "name": "Snare",
+      "note": 38,
+      "release_ms": 220.0,
+      "sample": "one-shots/drums/snares/snare_acoustic_crack_d1.wav",
+      "tune_cents": 0.0
+    },
+    {
+      "choke_group": 1,
+      "gain": 0.8,
+      "name": "Closed Hat",
+      "note": 42,
+      "release_ms": 70.0,
+      "sample": "one-shots/drums/hats/hat_closed_bright_tick.wav",
+      "tune_cents": 0.0
+    },
+    {
+      "choke_group": 1,
+      "gain": 0.85,
+      "name": "Open Hat",
+      "note": 46,
+      "release_ms": 380.0,
+      "sample": "one-shots/drums/hats/hat_open_airy.wav",
+      "tune_cents": 0.0
+    }
+  ],
+  "tags": [
+    "analog",
+    "drums",
+    "electronic",
+    "kit"
+  ]
+}
