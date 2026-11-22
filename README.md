@@ -11,7 +11,7 @@ Imagine buying a brand new electronic synthesizer or keyboard. When you turn it 
 
 This repository is that factory sound vault for Nebula Sound System. When users download Nebula, this library supplies the sounds, instruments, and demo songs they play with on day one.
 
-**Current Status:** Skeleton seeded for Phase 9. Contains sample placeholder items to validate file schemas and automated indexing tooling. Production factory sound packs will drop here during Phase 9.
+**Current Status:** Seeded and shipping real content. `one-shots/` holds **46 generated one-shot voices** (drums and percussion, bass, synth, foley and FX) at 48 kHz/24-bit, produced by Nebula's own code and therefore CC0 by construction. The `sample_`-prefixed items in `presets/`, `kits/` and `demo-projects/` are still SCHEMA PLACEHOLDERS — they exist to validate the formats and the indexing tooling, and are not final factory content. More packs (loops, fuller preset banks, demo songs) are still to come.
 
 ---
 
@@ -111,6 +111,24 @@ python tools/build_index.py --check
 - If an unlogged asset or stale index is found: exits with status `1` (`ERROR`).
 
 ---
+
+## Regenerating the one-shot library
+
+Every file in `one-shots/` is produced by Nebula's own code, so it can be rebuilt at any time and is
+deterministic (byte-identical across runs):
+
+```bash
+nebula --export-one-shots <this-repo>/one-shots
+```
+
+The export **never overwrites a file that is already there** — it writes only what is missing — so it is
+safe to re-run after adding a voice to the generator, and safe to run against a checkout you have edited by
+hand. Then refresh the catalogue and check the ledger:
+
+```bash
+python tools/build_index.py          # regenerate index.json
+python tools/build_index.py --check  # verify index + ledger are in sync
+```
 
 ## How to Contribute (Checklist)
 

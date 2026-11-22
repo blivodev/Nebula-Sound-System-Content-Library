@@ -62,6 +62,32 @@ Parallel work in `Nebula Sound System` (app), `Nebula-Sound-System-API` (API), a
 
 ---
 
+## 2b. Session — 2026-10-08: First real content — the full-spread CC0 one-shot bundle
+
+### What Was Done
+1. **46 one-shot WAVs generated in Nebula's own code** (`one-shots/`), all **48 kHz / mono / 24-bit** as the `one-shots/README.md` spec requires:
+   - `drums/` — kicks, snares, claps, hats (closed/open), toms (low/mid/high/deep floor), cymbals (ride, crash, crotale, triangle), and 19 percussion voices (rim, cowbell, bongos ×3, congas ×4, shaker, tambourine, claves, woodblock, snap, stick, maracas, cabasa, agogo ×2, guiro).
+   - `bass/` — an 808 sub hit and a saw-stab.
+   - `synths/` — a pluck, an FM bell, and a UI blip.
+   - `foley/` — a bubble pop, a pen click, an air whoosh, and a water-drip.
+   - `fx/` — a riser, a cinematic boom, a laser zap, and a glitch stutter.
+2. **Every voice is CC0 by construction** — Nebula's own synthesis code (sine waves + shaped noise, deterministic Lcg, never `std::mt19937`), the same recipes the on-board drum kit ships, re-rendered at the library's sample rate and bit depth with zero-crossing micro-fades, DC removal and `-0.5 dBFS` headroom.
+3. **46 Asset Ledger rows** appended to `CONTENT_LICENSES.md` (Creator: Nebula Content Team; Source: In-house (Synthesized); CC0-1.0) — one per file, matching the exact repo-relative path.
+4. **`index.json` rebuilt** by `tools/build_index.py`, and `tools/build_index.py --check` confirms zero discrepancies.
+
+### Why It Matters
+The `one-shots/` folder was an empty scaffold (a README only); this replaces the sample placeholders' territory with real, usable, legally-clean factory one-shots. It is the first genuine content drop and completes the recording that "the CC0 one-shot bundle needs decided assets" — the assets are Nebula's own generated ones, so no third-party attribution is required.
+
+### How It Was Verified
+- `tools/build_index.py --check` exits 0 ("all assets are audited in CONTENT_LICENSES.md").
+- Every file opens as a valid WAV, **48000 Hz, mono, 24-bit** (sample-width 3), non-trivial (> 8 KB).
+- **Determinism:** two independent renders of the bundle are **byte-identical across all 46 files** (fixed Lcg seeds), so the assets are reproducible from Nebula's code with no drift.
+
+### Scope Note
+Only `one-shots/`, `CONTENT_LICENSES.md` and `index.json` were touched. The main `Nebula Sound System` app and `Nebula-Sound-System-API` are unchanged by this drop.
+
+---
+
 ## 3. Next Steps (Phase 9 Factory Content Drop)
 
 1. **Synthesize Real Factory Patches (`presets/`):**
